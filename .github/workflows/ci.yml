@@ -30,7 +30,7 @@ jobs:
 
       # TASK 0 - Runs a MATLAB command using run-command action
       - name: Run MATLAB command
-         uses: matlab-actions/run-command@v2
+        uses: matlab-actions/run-command@v2
          with:
            command: ver
 
